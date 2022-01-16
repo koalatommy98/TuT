@@ -32,6 +32,13 @@
         - $ rosrun map_server mapsaver-f map_ver1 => pgm과 yaml형태로 map데이터 저장
         - 실행하고 있는 Directoriy에 저장됨
  
+ 2022-01-16
+ 
+ - google에서 제공하는 mediapipe를 이용한 얼굴 인식 사용.
+ - 인식한 얼굴의 위치와 면적에 따라 카메라 회전 모터와 터틀봇 모터 구동
+ - PID 제어로 정상값에 가까울수록 모터 속도 느리게 제어.
+    - Code
+        - => faceDetectionModule.py 실행
  
  
 
